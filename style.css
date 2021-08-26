@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.tdiv1{
+    width: 100%;
+    height: auto;
+    color:white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: table;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background: #fff;
+    
+}
+.round{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: black;
+    padding:  15px;
+}
+.nav{
+    display: none;
+}
+.nav a{
+    display: grid;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+.gridview{
+    display: none;
+}
+.tdiv1l{
+    width: 50%;
+    color: black;
+    float: left;
+    padding: 5px;
+}
+.tdiv1r{
+    float:right;
+    padding: 13px;
+    
+}
+.tdiv1r ul li{
+    display: inline;
+    text-decoration: none;
+    float: left;
+}
+.tdiv1r ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 8px;
+    color:black;
+}
+.tdiv2{
+    width: 100%;
+    height: 100vh;
+}
+.tdiv2i img{
+    width: 100%;
+    position:relative;
+    height: 100vh;
+    
+}
+.tdiv2i h1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+
+}
+.tdiv2i span{
+    padding: 15px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.tdiv3{
+    width: 100%;
+    height: auto;
+    display: table;
+        box-sizing: border-box;
+    padding-left: 8px;
+}
+
+.tdiv3h{
+    width: 100%;
+    padding: 40px 0 5px 10px;
+    border-bottom: 1px solid grey;
+    
+}
+.tdiv3h h3{
+ margin: 10px 0;
+}
+.tdiv31{
+    width: 100%;
+    width: 100%;
+    height: auto;
+    display: table;
+    padding: 40px 6;
+    
+}
+.totalmargin{
+    margin-top: 30px;
+}
+.tdiv311{
+    width: 25%;
+    float: left;
+    position: relative;
+  
+}
+.tdiv312{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+.tdiv313{
+    width: 25%;
+    float: left;
+    position: relative;
+  
+}
+.tdiv314{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+.tdiv311 img{
+    margin: 5px;
+    max-width: 350px;
+ 
+}
+.tdiv312 img{
+    margin: 5px;
+    max-width: 350px;
+ 
+}
+.tdiv313 img{
+    margin: 5px;
+    max-width: 350px;
+   
+}
+.tdiv314 img{
+    margin: 5px;
+    max-width: 350px;
+
+}
+.tdiv31 h3{
+    padding: 5px 6px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    position: absolute;
+    top:5px;
+    left: 5px;
+}
+.tdiv4{
+    margin: 10px 20px;
+}
+.tdiv4 p{
+    padding: 20px 0;
+}
+.tdiv5{
+width: 100%;
+height: auto;
+display: inline-flex;
+padding: 10px 15px;
+box-sizing: border-box;
+}
+
+.tdiv5 img{
+    max-width: 350px;
+}
+.tdiv51{
+    width: 25%;
+    margin: 5px 10px;
+    float: left;
+    
+}
+.tdiv52{
+    width: 25%;
+    margin: 5px 10px; 
+    float: left;
+}
+.tdiv53{
+    width: 25%;
+    margin: 5px 10px;
+float: left;
+}
+.tdiv54{
+    width: 25%;
+    margin: 5px 25pxx;
+      float: left;
+}
+.tdiv51 a{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    padding: 10px 25px;
+    box-sizing: border-box;
+    display: table;
+}
+.tdiv52 a{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    padding: 10px 25px;
+    box-sizing: border-box;
+    display: table;
+}
+.tdiv53 a{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    padding: 10px 25px;
+    box-sizing: border-box;
+    display: table;
+}
+.tdiv54 a{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    padding: 10px 25px;
+    box-sizing: border-box;
+    display: table;
+}
+.tdiv51 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.tdiv52 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.tdiv53 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.tdiv54 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.tdiv6{
+    margin: 30px;
+}
+.tdiv6 h1{
+    border-bottom: 1px solid grey;
+    padding: 15px 10px;
+    width: 100%;
+}
+input{
+    width: 100%;
+    padding: 13px 0;
+    border: 1px solid grey;
+}
+.ahref a{
+    text-decoration: none;
+    padding: 8px 10px;
+    color: white;
+    background-color: black;
+
+}
+.ahref a:hover{
+    color: black;
+    background-color: rgb(214, 205, 205);
+    transition: 1s;
+}
+::placeholder{
+    padding: 5px 10px;
+}
+.tdiv7{
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.tdiv7 img{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+footer p{
+    padding: 25px 0;
+}
+@media screen and (max-width:767px) {
+    .tdiv1r ul li a{
+        display: none;
+    }
+    .round{
+        position: relative;
+    }
+    .gridview{
+        position: absolute;
+        top: 60px;
+    right: 7px;
+    }
+    .nav{
+        display:block;
+    }
+    .nav:hover .gridview{
+        display: block;
+        background-color: grey;
+        color: black;
+    }
+    .tdiv311,.tdiv312,.tdiv313,.tdiv314{
+        width: 100%;
+    }
+    .tdiv51,.tdiv52,.tdiv53,.tdiv54{
+        width: 100%;
+        display: table;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .tdiv4 p{
+        padding: 20px 0;
+        text-align: justify;
+    }
+    .tdiv5{
+        display: block;
+    }
+    .tdiv5 img{
+        width: 100%;
+        max-width: initial;
+    }
+    .tdiv2i h1{
+        bottom:20px;
+        left: 10px;
+        top: inherit;
+    }
+    .totalmargin img{
+        margin: 0 !important;
+    }
+    .tdiv2i img{
+        object-fit: cover;
+    }
+}
